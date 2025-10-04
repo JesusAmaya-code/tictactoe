@@ -1,0 +1,30 @@
+input[type="button"] {
+    width: 120px;
+    height: 120px;
+    font-size: 100px;
+    border: none;
+}
+
+td:nth-child(1),
+td:nth-child(2) {
+    border-right: 10px solid black;
+}
+
+tr:nth-child(1) td,
+tr:nth-child(2) td {
+    border-bottom: 10px solid black;
+}
+
+table {
+    position: relative;
+    border-collapse: collapse;
+}
+
+td {
+    position: relative;
+}
+
+tr {
+    position: relative;
+}
+
